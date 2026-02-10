@@ -21,9 +21,9 @@
         "icon": "mc-icons/red-bed.png",
         "type": "site",
         "notes": [
-            "Implemented memory for options selected inside of launcher.",
+            "Implemented memory for options selected inside of ViraajCraft.",
             "Added wider range of game versions.",
-            "Added usernames into launcher.",
+            "Added usernames into launcher (later removed).",
             "Added FAQ screen, answering common easy questions.",
             "Removed bulk code for sleeker function/look.",
             "Organize structure of project for future growth."
@@ -68,29 +68,16 @@
     {
         "title": "Site Roadmap",
         "version": "v1.4.00",
-        "description": "Current progress on the future of Ampler Launcher!",
-        "date": "Tuesday, August 5th, 2025",
+        "description": "Current progress on the future of ViraajCraft",
+        "date": "Just a date",
         "icon": "icons/roadmap.png",
         "type": "site",
         "notes": [
-            "✘ Add the servers screen",
-            "✘ Add Credits screen",
-            "✘ Add Settings screen",
-            "✔ Rewrite some of the css and js",
-            "✔ Organize code, and add comments",
-            "✘ Add a customizable launcher selector",
-            "✔ Save last played game",
-            "✔ Add FAQ screen",
-            "✔ Add Installations screen",
-            "✔ Add Mods screen",
-            "✘ Add Skins screen",
-            "✔ Add Patch Notes screen",
-            "✘ Fix display errors",
-            "✘ Offline launcher download?"
+           "things"
         ]
     },
     {
-        "title": "Ampler Launcher Release",
+        "title": "ViraajCraft Release",
         "version": "v1.0.00",
         "description": "Come back soon for full log!",
         "date": "Saturday, July 17th, 2024",
