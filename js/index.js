@@ -440,18 +440,16 @@ function preventMotion(event)
     event.stopPropagation();
 }
 
-// Username Generator
 let username = document.getElementById('username');
-let userchosen = false;
-if (userchosen === false && !localStorage.getItem("username")) {
-    fetch("https://genr8rs.com/api/Content/Fun/XboxNameGenerator?genr8rsUserId=1748114452.233968321c14391c2&_sGameGenre=any").then((response) => response.json()).then((data) => {
-        if (!data) {return};
-        username.innerHTML = data._sResult;
-        localStorage.setItem("username", data._sResult);
-        userchosen = true;
-    })
+const defaultName = "You are logged in as: Gamer";
+
+
+if (!localStorage.getItem("username")) {
+    username.innerHTML = defaultName;
+    localStorage.setItem("username", defaultName);
+} else {
+    username.innerHTML = localStorage.getItem("username");
 }
-else {username.innerHTML = localStorage.getItem("username")}
 
 generateprofile(1);
 generategames("./assets/json/base.json");
