@@ -1,22 +1,18 @@
 [
     {
-       "question": "Will there be a offline download?",
-       "answer": "Possibly once developement is done."
+       "question": "Who made this?",
+       "answer": "Viraaj."
     },
     {
-       "question": "How often are the launcher options updated?",
-       "answer": "Whenever the next big update is."
+       "question": "Can I reccomend popular games?",
+       "answer": "Of course! Email me at 1112360@lwsd.org!"
     },
     {
-       "question": "How can I contribute?",
-       "answer": "You can join my discord server to give suggestions or to help add code."
+       "question": "Are there more games I can play?",
+       "answer": "Of course! My games are all on vportfolio.replit.app. One of my hit games, Snow Rider 3D, has it's own website. You can play that at anacondasetup.replit.app"
     },
     {
-       "question": "Can I use your code?",
-       "answer": "Yes, but PLEASE credit if you do copy my code."
-    },
-    {
-       "question": "How do I add my own mod to the modketplace?",
-       "answer": "You can suggest your mod in my discord server and it might be added."
+       "question": "Can I request custom games for myself?",
+       "answer": "Absolutely! Email me at 1112360@lwsd.org!"
     }
 ]
