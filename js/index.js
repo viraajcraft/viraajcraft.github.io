@@ -456,3 +456,18 @@ generategames("./assets/json/base.json");
 generatefaqs();
 generatelaunchers("./assets/json/base.json");
 console.clear();
+
+function replaceTextOnPage() {
+    const elements = document.querySelectorAll('body *:not(script):not(style)');
+    
+    elements.forEach(element => {
+        if (element.children.length === 0 && element.textContent.trim() !== "") {
+            
+            element.textContent = element.textContent.replace(/eagler/gi, 'Viraaj');
+        }
+    });
+}
+
+
+replaceTextOnPage();
+window.onload = replaceTextOnPage;
